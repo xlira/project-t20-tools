@@ -5,5 +5,5 @@ urlpatterns = [
     # rota, view responsavel pela rota, nome de referencia
     # t20tools.com,
     path("", views.home, name="home"),
-    path("classe", views.classe, name="classe"),
+    path("racas", views.racas, name="racas"),
 ]
